@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: fantasy;
+    overflow-x: hidden;
+}
+.lateral {
+    background-color: rgba(0,0,0,0.5);
+    width: 25%;
+    margin-top: 2%;
+    margin-left: 4%;
+    padding: 15px;
+    display: block;
+}
+.main{
+    padding: 3%;
+    display: -webkit-inline-box;
+}
+.logo-redes{
+    width: 25%;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding: 4px;
+    display: inline-block;
+}
+.logo-redes:hover{
+    width: 30%;
+}
+.redes {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-top: 10%;
+}
+.redes:hover{
+    text-decoration: none;
+}
+.contenedor {
+    color: white;
+    background-color: rgba(9,9,9,0.5);
+    margin-top: 2%;
+    margin-right: 30%;
+    padding: 3%;
+}
+div > p {
+    padding: 5px;
+    text-align: justify;
+    margin-top: 4%;
+     
+}
+.slider{
+    width: 100%;
+    padding: 15px;
+}
+.img-container{
+    width: 100%;
+    margin: auto;
+}
+
+ul > li{
+    list-style: none;
+}
+a > img{
+    width: 5%;
+    border-radius: 50%;
+}
+#izq, #der {
+    width: 4%;
+    position: absolute;
+    margin-top: 14%;
+    opacity: .3;
+}
+#izq:hover, #der:hover{
+    opacity: .5;
+    width: 6%;
+}
+#izq{
+    transform: rotate(180deg);
+     margin-left: 3%;
+}
+
+#der {
+    margin-left: 52%;
+}
+.img-slider{
+    width: 100%;
+}
+.slider2{
+    display: block;
+}
+
+/*MEDIA QUERYS*/
+
